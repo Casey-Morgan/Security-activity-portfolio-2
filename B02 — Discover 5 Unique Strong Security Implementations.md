@@ -21,11 +21,7 @@ Passwords are often exposed through phishing, credential reuse, malware, or data
 - Reduced reliance on passwords
 - Protection against credential theft
 
-### Example evidence to collect
-
-- Screenshot of MFA being enabled on a test account
-- Screenshot of available authentication methods, such as authenticator app or security key
-- Notes explaining why SMS-based MFA is weaker than authenticator apps or hardware-backed options
+<img width="1438" height="462" alt="Screenshot 2026-05-22 at 09 38 51" src="https://github.com/user-attachments/assets/6d54acc3-d3a5-4ca2-9022-8aa2c4d364de" />
 
 ### Defensive value
 
@@ -52,12 +48,8 @@ Least privilege limits the damage that can occur if an account is misused or com
 - Access control enforcement
 - Reduced blast radius
 
-### Example evidence to collect
+<img width="3840" height="2395" alt="ab0d45a55f0c41a243093fb57d460fc366fed9ab-6336x3952" src="https://github.com/user-attachments/assets/740da547-23e0-48d3-af90-4d3f0e6991f5" />
 
-- Table showing different roles and permissions
-- Screenshot of a test user being denied access to an admin-only function
-- Screenshot of an administrator account with additional permissions
-- Short explanation of how permissions are checked before sensitive actions are allowed
 
 ### Defensive value
 
@@ -82,12 +74,8 @@ If a database is leaked, salted password hashes are much harder to use than plai
 - Resistance to offline brute-force attacks
 - Secure cryptographic practice
 
-### Example evidence to collect
+<img width="1688" height="644" alt="Screenshot 2026-05-22 at 09 42 36" src="https://github.com/user-attachments/assets/88f1c844-26ba-41f9-86d1-0e074542012d" />
 
-- Code snippet showing bcrypt, Argon2, scrypt, or PBKDF2 being used
-- Screenshot showing that stored password values are hashes rather than plain text
-- Explanation that passwords should be verified by comparing hashes, not decrypted
-- Notes confirming that each password has a unique salt
 
 ### Defensive value
 
@@ -112,12 +100,8 @@ Without HTTPS, attackers on the same network may be able to view or modify traff
 - Secure communication
 - Protection against network interception
 
-### Example evidence to collect
+<img width="423" height="69" alt="Padlock" src="https://github.com/user-attachments/assets/d98ab140-244b-4c6a-8d10-cefa4a36413f" />
 
-- Browser screenshot showing the secure connection indicator
-- TLS scan result from an approved test website or personal domain
-- Screenshot showing HTTP requests redirecting to HTTPS
-- Header output showing Strict-Transport-Security where appropriate
 
 ### Defensive value
 
@@ -142,12 +126,8 @@ Many serious vulnerabilities occur when applications trust user input. Parameter
 - Injection prevention
 - Secure coding practice
 
-### Example evidence to collect
+<img width="2048" height="1347" alt="input-validation-technique-regular-expression-5-2048x1347" src="https://github.com/user-attachments/assets/c636a8b7-0583-44e5-b9d5-792ca2abb9bb" />
 
-- Code snippet showing a parameterised query
-- Test case showing that special characters are handled safely
-- Screenshot showing that script-like input is displayed as text rather than executed
-- Notes explaining the difference between validation, sanitisation, and output encoding
 
 ### Defensive value
 
