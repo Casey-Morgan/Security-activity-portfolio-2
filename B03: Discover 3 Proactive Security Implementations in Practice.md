@@ -27,11 +27,8 @@ MFA reduces the chance that a stolen password alone can be used to access an acc
 - Adds protection for remote access, email, cloud storage, and administrative accounts.
 - Helps organisations enforce stronger identity and access management.
 
-### Example Evidence to Collect
+<img width="1320" height="1710" alt="Screenshot 2026-05-22 at 13 13 22" src="https://github.com/user-attachments/assets/758366e3-d07c-4cee-8e67-94ce6ca21be8" />
 
-- Screenshot of MFA being enabled on a personal or lab account.
-- Security settings page showing authenticator app or security key registration.
-- Description of the MFA method used and why it improves account security.
 
 ### Limitations
 
@@ -61,12 +58,8 @@ The weakness is identified before an attacker can exploit it in production. Inst
 - Helps developers learn secure coding practices through direct feedback.
 - Supports DevSecOps by integrating security into the development lifecycle.
 
-### Example Evidence to Collect
+<img width="1600" height="853" alt="697fce83773590c9d36195fb_834eef65" src="https://github.com/user-attachments/assets/577eb005-0420-4ec9-87e8-33b231be4062" />
 
-- Screenshot of a Dependabot, CodeQL, Snyk, or Trivy scan result.
-- A sample alert showing an outdated or vulnerable dependency.
-- A pull request that updates a package to a safer version.
-- A short explanation of how the scan was triggered.
 
 ### Limitations
 
@@ -96,12 +89,8 @@ Segmentation reduces the damage an attacker can cause if one device or account i
 - Makes monitoring easier by separating normal and suspicious traffic patterns.
 - Helps meet security and compliance requirements for sensitive environments.
 
-### Example Evidence to Collect
+<img width="1150" height="823" alt="microsoft-entra-global-secure-access-health-check-success" src="https://github.com/user-attachments/assets/ede9b4c1-08a4-4a51-bd15-6560eaf79d31" />
 
-- A simple network diagram showing separated zones.
-- Firewall or router rules that restrict access between networks.
-- Test results showing that a guest device cannot access an internal service.
-- Cloud security group configuration showing limited inbound access.
 
 ### Limitations
 
